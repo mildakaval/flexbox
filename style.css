@@ -1,0 +1,71 @@
+body {
+background-color: rgba(255,255,255,0.2);
+font: sans-serif;
+font-size: 18px;
+border-bottom: 1px solid rgba(0,0,0,0.1);
+text-shadow:3px 3px 0 rgba(0,0,0,0.1);
+}
+.container {
+display: flex;
+justify-content: center;
+background: linear-gradient(260deg, #2376ae 0%, #c16ecf 100%);
+}
+
+h3 {
+color: white;
+}
+
+p {
+  font-size: 40px;
+}
+.inline-block {
+  padding: 50px 60px 30px 30px;
+  display: inline-block;
+
+}
+
+.float {
+  float: left;
+}
+.cat {
+  margin:10px 30px 10px 10px;
+  border: none;
+  height: 450px;
+  width: 250px;
+}
+.dog {
+  margin: 10px 30px 10px 10px;
+  border: none;
+  height: 360px;
+  width: 290px;
+}
+.fish {
+  text-align: center;
+  margin: 10px 40px 10px 10px;
+  border: none;
+  height: 400px;
+  width: 250px;
+}
+
+.cat,
+.dog,
+.fish {
+  background-color: rgba(20,20,20,0.2);
+  border-radius: 4px;
+  align-items: center;
+  text-align: center;
+  float: left;
+}
+hr {
+  border: 0.7px solid #b8b5ff;
+}
+.button {
+  margin-left: 20px;
+  padding: 10px 10px 10px 10px;
+  text-align: center;
+  border: none;
+  border-radius: 5px 5px 5px 5px;
+  background: yellow;
+  width: 200px;
+  height: 35px;
+}
